@@ -11,7 +11,7 @@ Activate <- function () {
   packages <- c('tidyverse', 'ggplot2', 'moments', 'rmarkdown', 'stringr', 'latex2exp', 'mapview', 'tseries',
                 'roxygen2', 'healthcareai', 'equatiomatic', 'rstatix', 'matrixStats', 'patchwork', 'geoR', 'PrevMap',
                 'kableExtra', 'bookdown', 'lme4', 'nlme', 'MASS', 'viridis', 'DescTools', 'sf', 'raster', 'tmap',
-                'terra', 'spData', 'tidygeocoder', 'rnaturalearth', 'geodata', 'leaflet', 'splancs', 'spDataLarge')
+                'terra', 'spData', 'tidygeocoder', 'rnaturalearth', 'geodata', 'leaflet', 'splancs', 'spDataLarge', 'doParallel')
 
 
   # Activate
