@@ -44,7 +44,7 @@ GetShapesInterface(numbers = numbers, districts = districts)
 #' Gazetteer
 #'
 #'
-source(file = file.path(getwd(), 'R', 'water', 'GetGazetteer.R'))
+source(file = file.path(getwd(), 'R', 'hydrometry', 'GetGazetteer.R'))
 frame <- GetGazetteer(utm = utm)
 
 
@@ -52,7 +52,7 @@ frame <- GetGazetteer(utm = utm)
 #' Intersections
 #'
 #'
-source(file = file.path(getwd(), 'R', 'water', 'Intersections.R'))
+source(file = file.path(getwd(), 'R', 'hydrometry', 'Intersections.R'))
 cores <- parallel::detectCores() - 2
 doParallel::registerDoParallel(cores = cores)
 clusters <- parallel::makeCluster(cores)
