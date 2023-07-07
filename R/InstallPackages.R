@@ -5,7 +5,7 @@
 
 
 #' Official packages
-#' 
+#'
 InstallPackagesOfficial <- function (){
 
   packages <- c('tidyverse', 'ggplot2', 'moments', 'tinytex', 'rmarkdown', 'stringr', 'latex2exp', 'mapview', 'tseries',
