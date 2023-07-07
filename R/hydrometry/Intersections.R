@@ -5,7 +5,7 @@
 
 
 
-#' Segments
+#' Intersections
 #'
 #' @param district: The name of a river basin  district
 #' @param frame: Which records of <frame> lie within the district?
